@@ -1,0 +1,33 @@
+# Agent specs (private)
+agent/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+db.sqlite3
+backend/media/
+backend/staticfiles/
+
+# Environment
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
